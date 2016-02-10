@@ -1,0 +1,29 @@
+{
+  "name": "hpmaharaja",
+  "version": "1.0.0",
+  "description": "Personal Website for Hpmaharaja",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hpmaharaja/hpmaharaja.git"
+  },
+  "author": "heran patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hpmaharaja/hpmaharaja/issues"
+  },
+  "homepage": "https://github.com/Hpmaharaja/hpmaharaja#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.3"
+  }
+}
