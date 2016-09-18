@@ -1,23 +1,25 @@
 body {
-	background: url(../img/logo_white_01.jpg) no-repeat center center fixed; 
+	background: url(../img/logo_white_01.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-div {
-    display: block;
 
+.header {
+	margin: auto;
+	color: white;
+	width: 450px;
 }
 
 .social {
-	margin-left: 580px!important;
-	margin-top: 110px!important;
+	margin: auto;
+	width: 600px;
 }
 
 .social ul {
     list-style-type: none;
-    padding: 0;
+    /*padding: 0;*/
 }
 
 .social li {
