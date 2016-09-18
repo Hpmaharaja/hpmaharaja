@@ -19,13 +19,19 @@ body {
 	body .header {
 		margin: auto;
 		color: white;
-		width: 400px;
-		font-size: 12px;
+		width: 55%;
+		font-size: 15px;
+		padding-left: 10px;
 	}
 
 	body .social {
 		margin: auto;
-		width: 600px;
+		width: 90%;
+	}
+
+	.social ul {
+	    list-style-type: none;
+	    padding-left: 25px;
 	}
 
 	.social ul li {
@@ -36,12 +42,10 @@ body {
 	.social ul li a {
 	    border: 0px solid transparent;
 	    color: white;
-	    height: 30px;
 	    outline: 0;
 	    position: relative;
 	    text-decoration: none;
-	    width: 600px;
-	    font-size: 23px;
+	    font-size: 25px;
 	}
 
 }
