@@ -16,15 +16,32 @@ body {
 	  background-size: cover;
 	}
 
-	.header {
+	body .header {
 		margin: auto;
 		color: white;
-		width: 300px;
+		width: 400px;
+		font-size: 12px;
 	}
 
 	.social {
 		margin: auto;
-		width: 400px;
+		width: 1px;
+	}
+
+	.social ul li {
+	    float: left;
+	    margin-left: 0;
+	}
+
+	.social li a {
+	    border: 2px solid transparent;
+	    color: white;
+	    height: 30px;
+	    outline: 0;
+	    position: relative;
+	    text-decoration: none;
+	    width: 100px;
+	    font-size: 25px;
 	}
 
 }
