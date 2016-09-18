@@ -6,6 +6,21 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 481px){
+
+	body {
+		background: url(../img/logo_white_01.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: contain;;
+	}
+
+  /*write your CSS-Code here*/
+
+
+}
+
 .header {
 	margin: auto;
 	color: white;
