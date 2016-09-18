@@ -13,10 +13,19 @@ body {
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	  background-size: contain;;
+	  background-size: cover;
 	}
 
-  /*write your CSS-Code here*/
+	.header {
+		margin: auto;
+		color: white;
+		width: 300px;
+	}
+
+	.social {
+		margin: auto;
+		width: 400px;
+	}
 
 
 }
