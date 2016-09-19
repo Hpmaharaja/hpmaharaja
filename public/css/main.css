@@ -1,11 +1,3 @@
-body {
-	background: url(../img/logo_white_01.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 @media screen and (max-width: 481px){
 
 	body {
@@ -19,19 +11,19 @@ body {
 	body .header {
 		margin: auto;
 		color: white;
-		width: 55%;
+		width: 60%;
 		font-size: 15px;
 		padding-left: 10px;
 	}
 
 	body .social {
 		margin: auto;
-		width: 90%;
+		width: 100%;
 	}
 
 	.social ul {
 	    list-style-type: none;
-	    padding-left: 25px;
+	    padding-left: 30px;
 	}
 
 	.social ul li {
@@ -48,6 +40,27 @@ body {
 	    font-size: 25px;
 	}
 
+	body .hp {
+		margin: auto;
+		margin-top: -100px;
+		width: 100%;
+		padding-left: 30px;
+	}
+
+	.hp p {
+		font-family: Algerian;
+		font-size: 200px !important;
+		color: white;
+	}
+
+}
+
+body {
+	background: url(../img/blur_black_logo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .header {
@@ -86,6 +99,18 @@ body {
     text-decoration: none;
     width: 39px;
     font-size: 40px;
+}
+
+.hp {
+	margin: auto;
+	margin-top: -650px;
+	width: 30%;
+}
+
+.hp p {
+	font-family: Algerian;
+	font-size: 350px;
+	color: white;
 }
 
 .statcounter {
