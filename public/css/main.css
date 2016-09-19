@@ -9,7 +9,7 @@ body {
 @media screen and (max-width: 481px){
 
 	body {
-		background: url(../img/logo_white_01.jpg) no-repeat center center fixed;
+		background: url(../img/blur_black_logo.jpg) no-repeat center center fixed;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
